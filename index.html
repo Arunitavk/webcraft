@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gaming website for latest games, news, and community.">
+    <title>Gaming Hub</title>
+    <style>
+        body {
+            background-image: url('/home/irin/Downloads/WhatsApp Image 2025-01-25 at 10.34.53 AM(1).jpeg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 10px 20px; /* Added more padding for space */
+            display: flex;
+            align-items: center;
+            color: aqua;
+        }
+        header img {
+            width: 120px; /* Adjust the width of the logo */
+            height: auto;
+            margin-right: 15px; /* Space between logo and the title */
+        }
+        header h1 {
+            margin: 0; /* Remove default margin */
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            margin-left: auto; /* Push nav to the right */
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        .work-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .work {
+            position: relative;
+            width: 300px;
+        }
+        .work img {
+            height: 300px;
+            width: 300px;
+            border-radius: 10px;
+        }
+        .layer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+            border-radius: 10px;
+        }
+        .work:hover .layer {
+            opacity: 1;
+        }
+        /* Play Now button styles */
+        .btn {
+            padding: 12px 25px;
+            background-color: #00bcd4;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .btn:hover {
+            background-color: #0097a7;
+            transform: translateY(-3px);
+        }
+        .btn:active {
+            background-color: #007c8a;
+            transform: translateY(1px);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        #contact-details {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+        }
+        #contact-details a {
+            color: aqua;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       
+        <img src="/home/irin/Downloads/logo.png" alt="Gaming Hub Logo">
+        <h1>SquidGame Universe</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Squid Game Universe – Step Into the Challenge!</h2>
+        <p>
+
+Dive into the thrilling world inspired by the hit series Squid Game.Test your skills with games like Red Light, Green Light, Dalgona Challenge, Tug of War, and the Marble Game. Will you have the strategy, precision, and nerve to survive the ultimate competition? Join now and find out!</p>
+    </section>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Featured Games</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/home/irin/Downloads/squdmini.jpg" alt="Squid Game Sweet Victory">
+                    <div class="layer">
+                        <h3>Squid Game Sweet Victory</h3>
+                        <p>Conquer tough candy puzzles for ultimate reward.</p>
+                        <a href="https://www.linkedin.com/in/arunita-v-k-777224291" class="btn">Play Now</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/home/irin/Downloads/squiddoll.jpg" alt="Red Light, Green Light">
+                    <div class="layer">
+                        <h3>Red Light, Green Light</h3>
+                        <p>Move towards the finish line while following instructions!</p>
+                        <a href="https://youtube.com/@vktwins6645?si=X6VtHmjG3Y0S3PWQ" class="btn">Play Now</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/home/irin/Downloads/squiddalgona.jpg" alt="Dalgona Game">
+                    <div class="layer">
+                        <h3>Dalgona Game</h3>
+                        <p>Carve out a shape from brittle candy using only a needle.</p>
+                        <a href="https://www.figma.com/file/17ulmzXxy6TCfhoGGMTXTt?node-id=0%3A1&type=design" class="btn">Play Now</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div id="contact-details">
+            <p>If you have any questions or inquiries, feel free to reach out to us:</p>
+            <p>Email: <a href="mailto:contact@gaminghub.com">contact@gaminghub.com</a></p>
+            <p>Phone: <a href="ph:+1234567890">+91 3423764598</a></p>
+            <p>Follow us on social media:</p>
+            <p>
+                <a href="https://www.facebook.com/GamingHub" target="_blank">Facebook</a> | 
+                <a href="https://twitter.com/GamingHub" target="_blank">Twitter</a> | 
+                <a href="https://www.instagram.com/GamingHub" target="_blank">Instagram</a>
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Gaming Hub. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
